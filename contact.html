@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Cloudtop Chalet | Contact</title>
+        <meta name="author" content="Meaghan Porrello">
+        <meta name="description" content="Cloudtop Chalet Contact Us">
+
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@300;400&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+
+        <header>
+            <nav>
+               <h1><a href="index.html">Cloudtop Chalet</a></h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="#" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <img src="images/swiss-valley.jpg"
+                alt="Swiss valley with rolling hills, lush greenery, and snowy mountains in the background" width="1440" height="560">
+        </header>
+
+        <main>
+            <section id="contact">
+                <div>
+                <h2>Contact Us</h2>
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p>Required inputs are marked with a <span class="required">*</span></p>
+                <img src="images/swiss-peak.jpg" alt="Rolling river running through lush greenery, with a tree line, and a snow filled mountain centered in the background." width="350" height="455">
+                </div>
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="fullname">Full Name *</label>
+                    <input type="text" id="fullname" name="fullname" required>
+    
+                    <label for="email">Email Address *</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="phone">Phone Number *</label>
+                    <input type="tel" id="phone" name="phone" required>
+    
+                    <fieldset>
+                        <legend>Preferred Method of Contact *</legend>
+                        
+                        <input type="radio" name="contact-pref" id="pref-email" required>
+                        <label for="pref-email">Email</label>
+        
+                        <input type="radio" name="contact-pref" id="pref-phone" required>
+                        <label for="pref-phone">Phone</label>
+                    </fieldset>
+    
+                    <label for="comments">Comments *</label>
+                    <textarea id="comments" name="comments" required></textarea>
+    
+                    <input type="submit" name="my-submit" id="my-submit" value="Submit">
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>Copyright © 2023 - Cloudtop Chalet</p>
+            <p>This site is for educational purposes only</p>
+        </footer>
+
+    </body>
+</html>
